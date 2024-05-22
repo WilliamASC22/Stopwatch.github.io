@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <div>
+        <p>
+            You can use the buttons provided to control the stop watch, or use the keys on your computer. 
+            The space bar can start and stop the stopwatch. 
+            The "R" key can reset the stopwatch.
+        </p>
+    </div>
+
+    <div class="stopwatch">
+        <div class="stopwatchDisplay" id="stopwatchDisplay">00:00:00</div>
+        <div class="stopwatchControls">
+            <button id="startStopStopwatch" onclick="toggleStopwatch()">Start</button>
+            <button id="resetStopwatch" onclick="resetStopwatch()">Reset</button>
+        </div>
+    </div>
+
+</body>
+</html>
